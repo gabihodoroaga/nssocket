@@ -1,5 +1,5 @@
 {
-  "name": "nssocket",
+  "name": "@gabihodoroaga/nssocket",
   "description": "An elegant way to define lightweight protocols on-top of TCP/TLS sockets in node.js",
   "version": "0.6.0",
   "author": {
