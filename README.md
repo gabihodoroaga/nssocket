@@ -1,10 +1,5 @@
-# nssocket
-[![Version npm](https://img.shields.io/npm/v/nssocket.svg?style=flat-square)](https://www.npmjs.com/package/nssocket)[![npm Downloads](https://img.shields.io/npm/dm/nssocket.svg?style=flat-square)](https://www.npmjs.com/package/nssocket)[![Build Status](https://img.shields.io/travis/foreverjs/nssocket/master.svg?style=flat-square)](https://travis-ci.org/foreverjs/nssocket)[![Dependencies](https://img.shields.io/david/foreverjs/nssocket.svg?style=flat-square)](https://david-dm.org/foreverjs/nssocket)
-
+# Synposis
 An elegant way to define lightweight protocols on-top of TCP/TLS sockets in node.js 
-
-# Motivation
-Working within node.js it is very easy to write lightweight network protocols that communicate over TCP or TLS. The definition of such protocols often requires repeated (and tedious) parsing of individual TCP/TLS packets into a message header and some JSON body.
 
 
 # Installation
@@ -101,7 +96,7 @@ Although this is not as optimal as other message formats (pure binary, msgpack) 
   
   socket.connect(8345);
 ```
- 
+
 # API
 
 ### socket.send(event, data) 

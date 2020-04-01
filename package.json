@@ -2,13 +2,23 @@
   "name": "nssocket",
   "description": "An elegant way to define lightweight protocols on-top of TCP/TLS sockets in node.js",
   "version": "0.6.0",
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "author": {
+    "name": "Charlie Robbins",
+    "email": "charlie.robbins@gmail.com"
+  },
   "maintainers": [
-    "genediazjr <genediazjr@gmail.com>"
+    {
+      "name": "indexzero",
+      "email": "charlie.robbins@gmail.com"
+    },
+    {
+      "name": "genediazjr",
+      "email": "genediazjr@gmail.com"
+    }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/foreverjs/nssocket.git"
+    "url": "http://github.com/gabihodoroaga/nssocket.git"
   },
   "dependencies": {
     "eventemitter2": "~0.4.14",
@@ -25,5 +35,8 @@
   "scripts": {
     "test": "vows test/*-test.js --spec"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
